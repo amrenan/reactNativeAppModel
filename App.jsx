@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Celular from './components/Celular';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Star</Text>
-      <StatusBar style="auto" />
+      <Celular celular1="81995119966" celular2="81995119966" celular3="81995119966"/>
     </View>
   );
 }
